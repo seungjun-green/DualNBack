@@ -6,7 +6,7 @@ The inspiration for this project came from the need to improve cognitive functio
 ## What it does
 The Dual-N-Back app is a cognitive training tool that helps users improve their working memory, attention, and cognitive flexibility. It presents users with a sequence of visual and auditory stimuli, and the user must identify when a stimulus from the current sequence matches one from a set number of steps back in the sequence.
 
-# Important Links
+## Important Links
  - [Devpost](https://devpost.com/software/dualnback)
  - [Demo Video](https://youtu.be/IaC1se4Lda0)
 
@@ -24,3 +24,13 @@ I learned fundamental knowledges of SwiftUI Chart framework. Such as how to cust
 
 ## What's next for DualNBack
 We plan to continue to improve the app by adding new levels, features, and stimuli. We also plan to gather user feedback and incorporate it into future updates. We also plan to add more features that can track users progress and also make it more interactive. Additionally, we would like to make the app available on other platforms, such as Android, to reach a wider audience.
+
+
+## Preview
+![mediamodifier_image (4)](https://user-images.githubusercontent.com/60959924/213914306-14ef10fe-9e9f-4360-a175-afb8db76a79b.png)
+![mediamodifier_image](https://user-images.githubusercontent.com/60959924/213914307-ae07e43d-6eea-4d9d-9068-83cd1187fe68.png)
+![mediamodifier_image (1)](https://user-images.githubusercontent.com/60959924/213914300-a2ab1619-407a-4ab3-be7e-351d165d6e30.png)
+![mediamodifier_image (2)](https://user-images.githubusercontent.com/60959924/213914303-12a75f66-cfd0-4333-b4ca-6f687dba836f.png)
+![mediamodifier_image (3)](https://user-images.githubusercontent.com/60959924/213914305-2f887940-980f-4dd4-8a5b-1b3bd4fe85c1.png)
+
+
