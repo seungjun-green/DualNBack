@@ -97,12 +97,10 @@ struct GameView: View {
                 
                         if score >= 90 {
                             Text("Congrats, Level up to N = \(currentLevel)").onAppear{
-                                print("C: \(currentLevel)")
                                 if currentLevel < 20 {
                                     currentLevel += 1
                                     UserDefaults.standard.set(self.currentLevel, forKey: "currentLevel")
                                 }
-                                print("C: \(currentLevel)")
                             }
                         }
                         
@@ -119,7 +117,7 @@ struct GameView: View {
                             }
                         }
                     }.onAppear{
-                        if manualLeveling == false {
+                        if manualLeveling == false && score > 70 {
                             print("Save current work flow")
                             
                             let new = Game(level: currentLevel, score: score, playedDate: Date())

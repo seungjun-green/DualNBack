@@ -48,16 +48,8 @@ struct DualNBack: View {
                     
                 }.frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(Color.myGray).navigationTitle("Dual-N-Back")
-                    .toolbar {
-                        ToolbarItem(placement: .navigationBarTrailing) {
-                            Button {
-                                // print("ff")
-                            } label: {
-                                Image(systemName: "gear")
-                            }
-                            
-                        }
-                    }
+                 
+                
             }.frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.myGray)
                 .onAppear{
@@ -93,7 +85,6 @@ struct GridView: View {
                 HStack(spacing: 0) {
                     ForEach(0..<3) { column in
                         CellView(r: row, c: column, fillR: fillR, fillC: fillC, border: 3)
-                        
                     }
                 }
             }
