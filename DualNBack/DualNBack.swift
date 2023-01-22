@@ -20,7 +20,7 @@ struct DualNBack: View {
                     Spacer()
                     
                     Toggle(isOn: $manualLeveling) {
-                        Text("Automatic Leving")
+                        Text("Manual Leving")
                     }.onChange(of: manualLeveling) { curr in
                         UserDefaults.standard.set(self.manualLeveling, forKey: "manual")
                         
