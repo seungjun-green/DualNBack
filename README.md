@@ -7,8 +7,8 @@ The inspiration for this project came from the need to improve cognitive functio
 The Dual-N-Back app is a cognitive training tool that helps users improve their working memory, attention, and cognitive flexibility. It presents users with a sequence of visual and auditory stimuli, and the user must identify when a stimulus from the current sequence matches one from a set number of steps back in the sequence.
 
 # Important Links
- [Devpost] (https://devpost.com/software/dualnback)
- [Demo Video] (https://youtu.be/IaC1se4Lda0)
+ ![Devpost] (https://devpost.com/software/dualnback)
+ ![Demo Video] (https://youtu.be/IaC1se4Lda0)
 
 ## How we built it
 I built the app using Swift , SwiftUI and Chart framework. Designed the UI in TabView and made user can play the game in firstTab, and history of their played games in second tab. Second Tab shows history in Charts. The ChartView is built with Apple's Chart framework. 
