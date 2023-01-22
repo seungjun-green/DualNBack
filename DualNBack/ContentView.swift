@@ -7,20 +7,30 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+import SwiftUI
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct ContentView: View {
+    @State private var selectedTab = "One"
+    
+    
+
+    var body: some View {
+        VStack{
+            TabView(selection: $selectedTab) {
+                DualNBack()
+                    .tabItem {
+                        Image(systemName: "house")
+                    }
+                    .tag("One")
+
+                History().background(Color.myGray)
+                    .tabItem {
+                        Image(systemName: "chart.xyaxis.line")
+                    }
+                    .tag("Two")
+                
+            }
+        } .environment(\.colorScheme, .dark)
+     
     }
 }

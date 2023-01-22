@@ -11,6 +11,10 @@
 		C0BC08D0297D34D50090C1CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC08CF297D34D50090C1CA /* ContentView.swift */; };
 		C0BC08D2297D34DC0090C1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BC08D1297D34DC0090C1CA /* Assets.xcassets */; };
 		C0BC08D5297D34DC0090C1CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BC08D4297D34DC0090C1CA /* Preview Assets.xcassets */; };
+		C0BC08DC297D35010090C1CA /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC08DB297D35000090C1CA /* MyColors.swift */; };
+		C0BC08DE297D353A0090C1CA /* DualNBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC08DD297D353A0090C1CA /* DualNBack.swift */; };
+		C0BC08E0297D35630090C1CA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC08DF297D35630090C1CA /* GameView.swift */; };
+		C0BC08E2297D356E0090C1CA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC08E1297D356E0090C1CA /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		C0BC08CF297D34D50090C1CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0BC08D1297D34DC0090C1CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0BC08D4297D34DC0090C1CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0BC08DB297D35000090C1CA /* MyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColors.swift; sourceTree = "<group>"; };
+		C0BC08DD297D353A0090C1CA /* DualNBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualNBack.swift; sourceTree = "<group>"; };
+		C0BC08DF297D35630090C1CA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C0BC08E1297D356E0090C1CA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				C0BC08CD297D34D50090C1CA /* DualNBackApp.swift */,
 				C0BC08CF297D34D50090C1CA /* ContentView.swift */,
+				C0BC08DB297D35000090C1CA /* MyColors.swift */,
+				C0BC08DD297D353A0090C1CA /* DualNBack.swift */,
+				C0BC08DF297D35630090C1CA /* GameView.swift */,
+				C0BC08E1297D356E0090C1CA /* History.swift */,
 				C0BC08D1297D34DC0090C1CA /* Assets.xcassets */,
 				C0BC08D3297D34DC0090C1CA /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BC08E2297D356E0090C1CA /* History.swift in Sources */,
 				C0BC08D0297D34D50090C1CA /* ContentView.swift in Sources */,
+				C0BC08DC297D35010090C1CA /* MyColors.swift in Sources */,
 				C0BC08CE297D34D50090C1CA /* DualNBackApp.swift in Sources */,
+				C0BC08DE297D353A0090C1CA /* DualNBack.swift in Sources */,
+				C0BC08E0297D35630090C1CA /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
